@@ -6,7 +6,7 @@ function useDocumentTitle(title, prevailOnUnmount = false) {
 
   useEffect(() => {
     document.title = title;
-  }, [title]);
+  }, [title, prevailOnUnmount ]);
 
   useEffect(
     () => () => {
