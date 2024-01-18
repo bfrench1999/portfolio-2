@@ -24,14 +24,14 @@
     "react-video-tag": "0.0.10",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4",
-    "@babel/plugin-proposal-private-property-in-object": "^4.0.0"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass-loader": "^10.2.0"
   }
 }
