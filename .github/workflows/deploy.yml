@@ -31,3 +31,4 @@ jobs:
           npm run deploy  
         env:
           CI: false
+          GH_TOKEN: ${{secrets.GH_TOKEN}}

@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -u 'bfrench1999' -b main -t $GH_TOKEN"
   },
   "eslintConfig": {
     "extends": [
